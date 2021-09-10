@@ -16,11 +16,17 @@ body {
     justify-content: center;
     align-items: center;
 }
-.middle-content-img {
-    height: 92px;
-    width: 272px;
-}
+.material-icons-outlined {
+    font-family: 'search', serif;
+    }
 .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(73, 75, 73);
+    border-radius: 2em;
+}
+.search-buttons {
     display: flex;
     justify-content: center;
     align-items: center;
